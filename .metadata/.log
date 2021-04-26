@@ -1,0 +1,204 @@
+!SESSION 2021-04-26 19:23:54.239 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.6.0_45
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -showLocation
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -showLocation
+
+!ENTRY com.csc.fsg.life.sde.core 1 0 2021-04-26 19:24:10.246
+!MESSAGE SDE Core activated
+
+!ENTRY com.csc.fsg.life.sde.core 1 0 2021-04-26 19:24:10.326
+!MESSAGE Initializing SDE...
+
+!ENTRY com.csc.fsg.life.sde.core 1 0 2021-04-26 19:24:10.342
+!MESSAGE   Adding classpath variables...
+
+!ENTRY com.csc.fsg.life.sde.core 1 0 2021-04-26 19:24:10.342
+!MESSAGE   Setting SDE preferences...
+
+!ENTRY com.csc.fsg.life.sde.core 1 0 2021-04-26 19:24:12.010
+!MESSAGE   Set default VM for JavaSE-1.6 execution environment to jdk-1.6.0...
+
+!ENTRY com.csc.fsg.life.sde.core 1 0 2021-04-26 19:24:12.010
+!MESSAGE SDE initialized
+
+!ENTRY com.csc.fsg.life.sde.server.core 1 0 2021-04-26 19:24:12.956
+!MESSAGE namespace :com.csc.fsg.life.sde.server.jboss
+
+!ENTRY com.csc.fsg.life.sde.server.core 1 0 2021-04-26 19:24:12.956
+!MESSAGE Config
+
+!ENTRY com.csc.fsg.life.sde.server.core 1 0 2021-04-26 19:24:12.972
+!MESSAGE Creating server runtime:   Name: null, TypeId: org.jboss.ide.eclipse.as.runtime.51, Location: C:\GITWork\ide-wmapplus-2.0-cscbase\software\jboss-5.1, Configuration: web, Id: JBoss v5.1 JDK 1.6.0, Jre: jdk-1.6.0
+  ClasspathEntries:
+
+
+!ENTRY com.csc.fsg.life.sde.server.core 4 0 2021-04-26 19:24:13.072
+!MESSAGE Installation location not found: C:\GITWork\ide-wmapplus-2.0-cscbase\software\jboss-5.1
+!STACK 1
+org.eclipse.core.runtime.CoreException: Installation location not found: C:\GITWork\ide-wmapplus-2.0-cscbase\software\jboss-5.1
+	at com.csc.fsg.life.sde.server.core.SDEServerInitializer.createServerRuntime(SDEServerInitializer.java:92)
+	at com.csc.fsg.life.sde.server.core.SDEServerInitializer.createServerEnv(SDEServerInitializer.java:62)
+	at com.csc.fsg.life.sde.server.core.SDEServerActivator.processElements(SDEServerActivator.java:202)
+	at com.csc.fsg.life.sde.server.core.SDEServerActivator.earlyStartup(SDEServerActivator.java:179)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$59.run(Workbench.java:2409)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.csc.fsg.life.sde.server.core 4 0 2021-04-26 19:24:13.072
+!MESSAGE Installation location not found: C:\GITWork\ide-wmapplus-2.0-cscbase\software\jboss-5.1
+
+!ENTRY com.csc.fsg.life.sde.server.core 1 0 2021-04-26 19:24:13.072
+!MESSAGE Creating server runtime:   Name: null, TypeId: org.jboss.ide.eclipse.as.runtime.eap.60, Location: C:\GITWork\ide-wmapplus-2.0-cscbase\software\jboss-eap-6.1, Configuration: web, Id: JBoss EAP v6.1 JDK 1.6.0, Jre: jdk-1.6.0
+  ClasspathEntries:
+
+
+!ENTRY com.csc.fsg.life.sde.server.core 4 0 2021-04-26 19:24:13.072
+!MESSAGE Installation location not found: C:\GITWork\ide-wmapplus-2.0-cscbase\software\jboss-eap-6.1
+!STACK 1
+org.eclipse.core.runtime.CoreException: Installation location not found: C:\GITWork\ide-wmapplus-2.0-cscbase\software\jboss-eap-6.1
+	at com.csc.fsg.life.sde.server.core.SDEServerInitializer.createServerRuntime(SDEServerInitializer.java:92)
+	at com.csc.fsg.life.sde.server.core.SDEServerInitializer.createServerEnv(SDEServerInitializer.java:62)
+	at com.csc.fsg.life.sde.server.core.SDEServerActivator.processElements(SDEServerActivator.java:202)
+	at com.csc.fsg.life.sde.server.core.SDEServerActivator.earlyStartup(SDEServerActivator.java:179)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$59.run(Workbench.java:2409)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.csc.fsg.life.sde.server.core 4 0 2021-04-26 19:24:13.072
+!MESSAGE Installation location not found: C:\GITWork\ide-wmapplus-2.0-cscbase\software\jboss-eap-6.1
+
+!ENTRY com.csc.fsg.life.sde.server.core 1 0 2021-04-26 19:24:13.072
+!MESSAGE namespace :com.csc.fsg.life.sde.server.tomcat
+
+!ENTRY com.csc.fsg.life.sde.server.core 1 0 2021-04-26 19:24:13.072
+!MESSAGE Config
+
+!ENTRY com.csc.fsg.life.sde.server.core 1 0 2021-04-26 19:24:13.088
+!MESSAGE Creating server runtime:   Name: null, TypeId: org.eclipse.jst.server.tomcat.runtime.55, Location: C:\GITWork\ide-wmapplus-2.0-cscbase\software\tomcat-5.5-j2se-1.4, Configuration: null, Id: Apache Tomcat v5.5 SDK 1.4.2, Jre: J2SE SDK 1.4.2
+  ClasspathEntries:
+
+
+!ENTRY com.csc.fsg.life.sde.server.core 4 0 2021-04-26 19:24:13.088
+!MESSAGE Installation location not found: C:\GITWork\ide-wmapplus-2.0-cscbase\software\tomcat-5.5-j2se-1.4
+!STACK 1
+org.eclipse.core.runtime.CoreException: Installation location not found: C:\GITWork\ide-wmapplus-2.0-cscbase\software\tomcat-5.5-j2se-1.4
+	at com.csc.fsg.life.sde.server.core.SDEServerInitializer.createServerRuntime(SDEServerInitializer.java:92)
+	at com.csc.fsg.life.sde.server.core.SDEServerInitializer.createServerEnv(SDEServerInitializer.java:62)
+	at com.csc.fsg.life.sde.server.core.SDEServerActivator.processElements(SDEServerActivator.java:202)
+	at com.csc.fsg.life.sde.server.core.SDEServerActivator.earlyStartup(SDEServerActivator.java:179)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$59.run(Workbench.java:2409)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.csc.fsg.life.sde.server.core 4 0 2021-04-26 19:24:13.088
+!MESSAGE Installation location not found: C:\GITWork\ide-wmapplus-2.0-cscbase\software\tomcat-5.5-j2se-1.4
+
+!ENTRY com.csc.fsg.life.sde.server.core 1 0 2021-04-26 19:24:13.088
+!MESSAGE Creating server runtime:   Name: null, TypeId: org.eclipse.jst.server.tomcat.runtime.55, Location: C:\GITWork\ide-wmapplus-2.0-cscbase\software\tomcat-5.5, Configuration: null, Id: Apache Tomcat v5.5 JDK 1.5.0, Jre: J2SE JDK 1.5.0
+  ClasspathEntries:
+
+
+!ENTRY com.csc.fsg.life.sde.server.core 4 0 2021-04-26 19:24:13.088
+!MESSAGE Installation location not found: C:\GITWork\ide-wmapplus-2.0-cscbase\software\tomcat-5.5
+!STACK 1
+org.eclipse.core.runtime.CoreException: Installation location not found: C:\GITWork\ide-wmapplus-2.0-cscbase\software\tomcat-5.5
+	at com.csc.fsg.life.sde.server.core.SDEServerInitializer.createServerRuntime(SDEServerInitializer.java:92)
+	at com.csc.fsg.life.sde.server.core.SDEServerInitializer.createServerEnv(SDEServerInitializer.java:62)
+	at com.csc.fsg.life.sde.server.core.SDEServerActivator.processElements(SDEServerActivator.java:202)
+	at com.csc.fsg.life.sde.server.core.SDEServerActivator.earlyStartup(SDEServerActivator.java:179)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$59.run(Workbench.java:2409)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.csc.fsg.life.sde.server.core 4 0 2021-04-26 19:24:13.088
+!MESSAGE Installation location not found: C:\GITWork\ide-wmapplus-2.0-cscbase\software\tomcat-5.5
+
+!ENTRY com.csc.fsg.life.sde.server.core 1 0 2021-04-26 19:24:13.088
+!MESSAGE Creating server runtime:   Name: null, TypeId: org.eclipse.jst.server.tomcat.runtime.60, Location: C:\GITWork\ide-wmapplus-2.0-cscbase\software\tomcat-6.0, Configuration: null, Id: Apache Tomcat v6.0 JDK 1.6.0, Jre: jdk-1.6.0
+  ClasspathEntries:
+
+
+!ENTRY com.csc.fsg.life.sde.server.core 4 0 2021-04-26 19:24:13.088
+!MESSAGE Installation location not found: C:\GITWork\ide-wmapplus-2.0-cscbase\software\tomcat-6.0
+!STACK 1
+org.eclipse.core.runtime.CoreException: Installation location not found: C:\GITWork\ide-wmapplus-2.0-cscbase\software\tomcat-6.0
+	at com.csc.fsg.life.sde.server.core.SDEServerInitializer.createServerRuntime(SDEServerInitializer.java:92)
+	at com.csc.fsg.life.sde.server.core.SDEServerInitializer.createServerEnv(SDEServerInitializer.java:62)
+	at com.csc.fsg.life.sde.server.core.SDEServerActivator.processElements(SDEServerActivator.java:202)
+	at com.csc.fsg.life.sde.server.core.SDEServerActivator.earlyStartup(SDEServerActivator.java:179)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$59.run(Workbench.java:2409)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.csc.fsg.life.sde.server.core 4 0 2021-04-26 19:24:13.088
+!MESSAGE Installation location not found: C:\GITWork\ide-wmapplus-2.0-cscbase\software\tomcat-6.0
+
+!ENTRY com.csc.fsg.life.sde.server.core 1 0 2021-04-26 19:24:13.088
+!MESSAGE Creating server runtime:   Name: null, TypeId: org.eclipse.jst.server.tomcat.runtime.70, Location: C:\GITWork\ide-wmapplus-2.0-cscbase\software\tomcat-7.0, Configuration: null, Id: Apache Tomcat v7.0 JDK 1.6.0, Jre: jdk-1.6.0
+  ClasspathEntries:
+
+
+!ENTRY com.csc.fsg.life.sde.server.core 4 0 2021-04-26 19:24:13.088
+!MESSAGE Installation location not found: C:\GITWork\ide-wmapplus-2.0-cscbase\software\tomcat-7.0
+!STACK 1
+org.eclipse.core.runtime.CoreException: Installation location not found: C:\GITWork\ide-wmapplus-2.0-cscbase\software\tomcat-7.0
+	at com.csc.fsg.life.sde.server.core.SDEServerInitializer.createServerRuntime(SDEServerInitializer.java:92)
+	at com.csc.fsg.life.sde.server.core.SDEServerInitializer.createServerEnv(SDEServerInitializer.java:62)
+	at com.csc.fsg.life.sde.server.core.SDEServerActivator.processElements(SDEServerActivator.java:202)
+	at com.csc.fsg.life.sde.server.core.SDEServerActivator.earlyStartup(SDEServerActivator.java:179)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$59.run(Workbench.java:2409)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.csc.fsg.life.sde.server.core 4 0 2021-04-26 19:24:13.088
+!MESSAGE Installation location not found: C:\GITWork\ide-wmapplus-2.0-cscbase\software\tomcat-7.0
+
+!ENTRY com.csc.fsg.life.sde.server.core 1 0 2021-04-26 19:24:13.088
+!MESSAGE Creating server runtime:   Name: null, TypeId: org.eclipse.jst.server.tomcat.runtime.70, Location: C:\GITWork\ide-wmapplus-2.0-cscbase\software\tomcat-7.0, Configuration: null, Id: Apache Tomcat v7.0 JDK 1.7.0, Jre: jdk-1.7.0
+  ClasspathEntries:
+
+
+!ENTRY com.csc.fsg.life.sde.server.core 4 0 2021-04-26 19:24:13.088
+!MESSAGE Installation location not found: C:\GITWork\ide-wmapplus-2.0-cscbase\software\tomcat-7.0
+!STACK 1
+org.eclipse.core.runtime.CoreException: Installation location not found: C:\GITWork\ide-wmapplus-2.0-cscbase\software\tomcat-7.0
+	at com.csc.fsg.life.sde.server.core.SDEServerInitializer.createServerRuntime(SDEServerInitializer.java:92)
+	at com.csc.fsg.life.sde.server.core.SDEServerInitializer.createServerEnv(SDEServerInitializer.java:62)
+	at com.csc.fsg.life.sde.server.core.SDEServerActivator.processElements(SDEServerActivator.java:202)
+	at com.csc.fsg.life.sde.server.core.SDEServerActivator.earlyStartup(SDEServerActivator.java:179)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$59.run(Workbench.java:2409)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.csc.fsg.life.sde.server.core 4 0 2021-04-26 19:24:13.088
+!MESSAGE Installation location not found: C:\GITWork\ide-wmapplus-2.0-cscbase\software\tomcat-7.0
+
+!ENTRY com.csc.fsg.life.sde.server.core 1 0 2021-04-26 19:24:13.103
+!MESSAGE SDE Servers initialization process completed.
+
+!ENTRY com.csc.fsg.life.sde.subversion 1 0 2021-04-26 19:24:13.103
+!MESSAGE Set SVN configration location to C:\GITWork\ide-wmapplus-2.0-cscbase\.subversion
+
+!ENTRY com.csc.fsg.life.sde.subversion 1 0 2021-04-26 19:24:13.141
+!MESSAGE Added https://cscehbldnor003/svn/csc-base location
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2021-04-26 19:26:46.186
+!MESSAGE Could not auto-share project GitTest
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: Provided SVN information does not match that on disk for project 'GitTest'.
+	at org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot.setSharing(SVNWorkspaceRoot.java:206)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.autoconnectSVNProject(SVNTeamProviderType.java:138)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.run(SVNTeamProviderType.java:105)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2021-04-26 19:26:46.186
+!MESSAGE Provided SVN information does not match that on disk for project 'GitTest'.
