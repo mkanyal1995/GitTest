@@ -1,11 +1,10 @@
-INDEX VERSION 1.126+C:\GITWork\workspace\.metadata\.plugins\org.eclipse.jdt.core
+INDEX VERSION 1.126+C:\GITWork\clonedworkspace\GitTest\.metadata\.plugins\org.eclipse.jdt.core
+2182948434.index
 558794759.index
 2800600793.index
-1368113049.index
 4255268412.index
-2721624475.index
+1368113049.index
 2435334223.index
-3997289597.index
-2182948434.index
+2721624475.index
 3660768278.index
-2628215972.index
+3997289597.index

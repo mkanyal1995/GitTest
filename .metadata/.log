@@ -202,3 +202,22 @@ org.tigris.subversion.subclipse.core.SVNException: Provided SVN information does
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 !SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2021-04-26 19:26:46.186
 !MESSAGE Provided SVN information does not match that on disk for project 'GitTest'.
+!SESSION 2021-04-26 19:43:36.560 -----------------------------------------------
+eclipse.buildId=M20110210-1200
+java.version=1.6.0_45
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -showLocation
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -showLocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-04-26 19:43:40.366
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.csc.fsg.life.sde.core 1 0 2021-04-26 19:43:44.076
+!MESSAGE SDE Core activated
+
+!ENTRY com.csc.fsg.life.sde.core 1 0 2021-04-26 19:43:45.398
+!MESSAGE SDE initialized
+
+!ENTRY com.csc.fsg.life.sde.server.core 1 0 2021-04-26 19:43:45.448
+!MESSAGE SDE Servers initialization process completed.
