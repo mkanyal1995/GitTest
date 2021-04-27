@@ -1,5 +1,0 @@
-#Mon Apr 26 19:24:10 IST 2021
-logger.quiet=true
-ant.logger.config=-logger com.csc.fsg.life.sbe.ant.logger.AntProcessBuildLogger -e -q
-eclipse.preferences.version=1
-logger.quiet.tasks.enabled=false

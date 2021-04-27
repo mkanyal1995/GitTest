@@ -1,4 +1,0 @@
-#Mon Apr 26 19:26:43 IST 2021
-org.eclipse.jdt.launching.PREF_DEFAULT_ENVIRONMENTS_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<defaultEnvironments>\r\n<defaultEnvironment environmentId\="JavaSE-1.6" vmId\="57,org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType13,1619445251979"/>\r\n</defaultEnvironments>\r\n
-eclipse.preferences.version=1
-org.eclipse.jdt.launching.PREF_VM_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<vmSettings defaultVM\="57,org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType13,1619445374026">\r\n<vmType id\="org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType">\r\n<vm id\="1619445251979" javadocURL\="http\://java.sun.com/javase/6/docs/api/" name\="jdk-1.6.0" path\="C\:\\GITWork\\ide-wmapplus-2.0-cscbase\\software\\jdk-1.6.0"/>\r\n<vm id\="1619445374026" name\="jdk1.8.0_251" path\="C\:\\GITWork\\jdk1.8.0_251"/>\r\n</vmType>\r\n</vmSettings>\r\n
