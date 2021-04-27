@@ -7,6 +7,8 @@ public class Circle implements Shape {
 System.out.println("Inside Circle cloned workspace");
 
 System.out.println("Inside Circle workspace");
+System.out.println("thank you from cloned one");
+
 
    }
 }
