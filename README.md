@@ -1,2 +1,2 @@
 # GitTest
-Thisis for tutorial purpose.Merge
+NewBranch: Thisis for tutorial purpose.but with newBranch
